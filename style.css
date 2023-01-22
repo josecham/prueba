@@ -5,21 +5,32 @@
 .parrafo-2{
 color: brown;
 }
-col:nth-child(1){
-    background-color: grey;
+table{
+font-family: Arial, Helvetica, sans-serif;
+border: 2px solid gray;
+border-collapse: collapse;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
 }
-col:nth-child(2){
-    background-color: azure;
+caption{
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 1rem;
 }
-col:nth-child(3){
-    background-color: azure;
+th,
+td{
+border: 2px solid gray;
+padding: 5rem;
 }
-col:nth-child(4){
-    background-color: azure;
-}
-col:nth-child(5){
-    background-color: azure;
-}
-col:nth-child(6){
-    background-color: azure;
-}
+tr:nth-child(4)  td:nth-child(2){
+    background-color: chartreuse;
+    letter-spacing: 90px;
+    padding-left: 50px;
+    text-transform: uppercase;
+}    
+td:first-child,
+th,
+tfoot{
+background-color: chartreuse;    
+}   
