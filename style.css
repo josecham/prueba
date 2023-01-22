@@ -5,3 +5,21 @@
 .parrafo-2{
 color: brown;
 }
+col:nth-child(1){
+    background-color: grey;
+}
+col:nth-child(2){
+    background-color: azure;
+}
+col:nth-child(3){
+    background-color: azure;
+}
+col:nth-child(4){
+    background-color: azure;
+}
+col:nth-child(5){
+    background-color: azure;
+}
+col:nth-child(6){
+    background-color: azure;
+}
