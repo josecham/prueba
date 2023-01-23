@@ -21,7 +21,7 @@ margin-bottom: 1rem;
 th,
 td{
 border: 2px solid gray;
-padding: 5rem;
+padding: 1rem;
 }
 tr:nth-child(4)  td:nth-child(2){
     background-color: chartreuse;
