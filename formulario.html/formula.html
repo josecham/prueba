@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +8,12 @@
     <title>Mi Formulario</title> 
 </head>
 <body>
-    <form action="procesar(1).php" method="POST">
-    <label for="name">nombre</label>
-    <input id="name" type="text" name="nombre"><br>
-    <label for="email">email</label>
-    <input id= "email" type="text" name="email"><br>
-     <button>Submit</button>
+    <form action="procesar.php" method="post">
+    <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
+    <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
+    <input type="text" name="phone" id="subject" class="subject" placeholder="TELEFONO">
+    <textarea name="message" id="message" class="message" placeholder="MENSAJE" cols="30" rows="10"></textarea>
+     <button type="submit" class="btn btn-primary">ENVIAR</button>
     </form>
 </body>
 </html>
